@@ -19,9 +19,7 @@ h1, h2, h3 { color: #008; }
 
 h1, h2 { border-bottom: 1px solid #008; }
 
-h1 {
-  text-align: center;
-}
+h1 { text-align: center; }
 
 /* Text */
 
@@ -32,6 +30,8 @@ code {
   border: 1px dashed #999;
   background: #ccc;
 }
+
+code span.big { padding-top: 8px; }
 
 .big {
   font-size: x-large;
